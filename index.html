@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="./assets/uni.1794b870.css">
+    <link rel="stylesheet" href="/petlife/assets/uni.1794b870.css">
 
     <meta charset="UTF-8" />
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <link rel="icon" href="./assets/logo-D3szlkQJ.svg">
-    <link rel="manifest" href="./assets/manifest-ClJ9AW2g.webmanifest">
+    <link rel="icon" href="/petlife/assets/logo-D3szlkQJ.svg">
+    <link rel="manifest" href="/petlife/assets/manifest-ClJ9AW2g.webmanifest">
     <meta name="theme-color" content="#FF6B00">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -23,11 +23,50 @@
     </script>
     <title></title>
     <!--preload-links-->
-    <!--app-context-->
-    <script type="module" crossorigin src="./assets/index-BcFvdOjU.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-D7SwXdqw.css">
+    <script>
+window.__uniConfig = {
+  appId: 'petlife',
+  appName: 'PetLife',
+  appVersion: '1.0.0',
+  appVersionCode: '100',
+  autoDesignWidth: false,
+  compilerVersion: '4.36',
+  darkmode: true,
+  fallbackLocale: 'zh-Hans',
+  globalStyle: {"backgroundColor":"@bgColor","backgroundColorBottom":"@bgColorBottom","backgroundColorTop":"@bgColorTop","backgroundTextStyle":"@bgTxtStyle","navigationBarBackgroundColor":"#000000","navigationBarTextStyle":"@navTxtStyle","navigationBarTitleText":"PetLife","navigationStyle":"custom"},
+  locale: 'zh-Hans',
+  locales: {},
+  nvue: {"flex-direction":"column"},
+  pages: [{"path":"pages/index","type":"home","style":{}},{"path":"pages/pets/add","style":{}},{"path":"pages/pets/detail","style":{}},{"path":"pages/pets/record-add","style":{}},{"path":"pages/pets/report","style":{}},{"path":"pages/pets/index","style":{}},{"path":"pages/reminders/index","style":{}},{"path":"pages/ai/index","style":{}},{"path":"pages/nearby/index","style":{}},{"path":"pages/nearby/detail","style":{}},{"path":"pages/profile/index","style":{}}],
+  ready: true,
+  router: {assets:"assets",base:"/petlife/",strict:false},
+  tabBar: {"color":"#999999","selectedColor":"#ff6b00","backgroundColor":"#ffffff","borderStyle":"black","list":[{"pagePath":"pages/index","text":"\u9996\u9875","iconPath":"static/tab/home.svg","selectedIconPath":"static/tab/home-active.svg"},{"pagePath":"pages/pets/index","text":"\u6863\u6848","iconPath":"static/tab/paw.svg","selectedIconPath":"static/tab/paw-active.svg"},{"pagePath":"pages/ai/index","text":"AI","iconPath":"static/tab/ai.svg","selectedIconPath":"static/tab/ai-active.svg"},{"pagePath":"pages/nearby/index","text":"\u9644\u8fd1","iconPath":"static/tab/nearby.svg","selectedIconPath":"static/tab/nearby-active.svg"},{"pagePath":"pages/profile/index","text":"\u6211\u7684","iconPath":"static/tab/user.svg","selectedIconPath":"static/tab/user-active.svg"}],"height":"100px"},
+  themeConfig: {dark:{"backgroundColor":"#191919","backgroundColorBottom":"#191919","backgroundColorTop":"#191919","backgroundTextStyle":"dark","navTxtStyle":"white","bgColor":"#191919","bgColorBottom":"#191919","bgColorTop":"#191919","borderColor":"#2D2D2D","c-bg":"#191919","c-surface":"#2D2D2D","c-border":"#3D3D3D","c-text":"#F5F5F5","c-text-2":"#B0B0B0","c-text-3":"#707070","c-prim":"#FF6B00","c-prim-bg":"rgba(255,107,0,0.12)","c-prim-2":"#6366F1","c-prim-2-bg":"rgba(99,102,241,0.12)","c-red":"#EF4444","c-amber":"#F59E0B","c-green":"#10B981"},light:{"backgroundColor":"#F8F9FA","backgroundColorBottom":"#F8F9FA","backgroundColorTop":"#F8F9FA","backgroundTextStyle":"dark","navTxtStyle":"white","bgColor":"#F8F9FA","bgColorBottom":"#F8F9FA","bgColorTop":"#F8F9FA","borderColor":"#F0F0F0","c-bg":"#F8F9FA","c-surface":"#FFFFFF","c-border":"#F0F0F0","c-text":"#1A1A2E","c-text-2":"#52525B","c-text-3":"#A1A1AA","c-prim":"#FF6B00","c-prim-bg":"rgba(255,107,0,0.08)","c-prim-2":"#6366F1","c-prim-2-bg":"rgba(99,102,241,0.08)","c-red":"#EF4444","c-amber":"#F59E0B","c-green":"#10B981"}},
+  themeLocation: 'theme.json',
+  networkTimeout: {request:60000},
+  rpxCalcMaxDeviceWidth: 960,
+  rpxCalcBaseDeviceWidth: 375,
+  fallbackLocale: 'zh-Hans',
+  transformPx: true
+};
+window.__uniRoutes = window.__uniConfig.pages.map(function(p) {
+  var route = p.path;
+  var isTabBar = false;
+  var tabBarIndex = -1;
+  if (window.__uniConfig.tabBar) {
+    window.__uniConfig.tabBar.list.forEach(function(t, i) {
+      if (t.pagePath === route) { isTabBar = true; tabBarIndex = i; }
+    });
+  }
+  return { path: '/' + route, route: route, meta: {id: route, route: route, isTabBar: isTabBar, tabBarIndex: tabBarIndex, navigationBar: {}}} ;
+});
+</script>
+
+    <script type="module" crossorigin src="/petlife/assets/index-DpMpzQTd.js"></script>
+    <link rel="stylesheet" crossorigin href="/petlife/assets/index-D7SwXdqw.css">
   </head>
   <body>
     <div id="app"><!--app-html--></div>
   </body>
 </html>
+
