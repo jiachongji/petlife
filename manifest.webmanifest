@@ -1,1 +1,0 @@
-{"name":"PetLife - 宠物成长记录","short_name":"PetLife","description":"记录宠物成长的每一个瞬间","start_url":"/","display":"standalone","background_color":"#F8F9FA","theme_color":"#FF6B00","lang":"en","scope":"/","orientation":"portrait-primary","icons":[{"src":"pwa-icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
