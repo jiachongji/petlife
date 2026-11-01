@@ -1,0 +1,1 @@
+import{a3 as n,L as e,m as t}from"./index-uzoA_xp9.js";function r(){return!n()}function i({title:r="登录后才能导出",content:i="账号保存在本机，登录后即可导出",confirmText:o="去登录"}={}){return new Promise(c=>{if(n())return c(!0);e({title:r,content:i,confirmText:o,cancelText:"先不登",confirmColor:"#E2803F",success:n=>{n.confirm&&t({url:"/pages/login/index"}),c(!1)},fail:()=>c(!1)})})}export{r as i,i as r};
